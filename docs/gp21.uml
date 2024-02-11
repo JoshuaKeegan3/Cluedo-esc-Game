@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>nz.ac.vuw.ecs.swen225.gp21</OriginalElement>
+  <nodes>
+    <node x="260.74356060606067" y="13.1328125">nz.ac.vuw.ecs.swen225.gp21.domain</node>
+    <node x="288.5" y="135.1328125">nz.ac.vuw.ecs.swen225.gp21.renderer</node>
+    <node x="301.2863636363636" y="371.1328125">nz.ac.vuw.ecs.swen225.gp21.fuzz</node>
+    <node x="553.4" y="269.1328125">nz.ac.vuw.ecs.swen225.gp21.app</node>
+    <node x="512.5" y="135.1328125">nz.ac.vuw.ecs.swen225.gp21.recorder</node>
+    <node x="30.5" y="135.1328125">nz.ac.vuw.ecs.swen225.gp21.persistency</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.persistency" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_ONE">
+      <point x="-49.5" y="-15.0" />
+      <point x="80.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.recorder" relationship="CREATE">
+      <point x="0.0" y="-15.0" />
+      <point x="621.9" y="217.1328125" />
+      <point x="634.3" y="217.1328125" />
+      <point x="34.799999999999955" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.renderer" relationship="TO_ONE">
+      <point x="-45.66666666666663" y="-15.0" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="390.0" y="227.1328125" />
+      <point x="14.5" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.renderer" relationship="CREATE">
+      <point x="-72.5" y="15.0" />
+      <point x="303.0" y="185.1328125" />
+      <point x="268.5" y="185.1328125" />
+      <point x="268.5" y="160.1328125" />
+      <point x="-87.0" y="10.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.domain" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="CREATE">
+      <point x="66.0" y="15.0" />
+      <point x="409.24356060606067" y="94.1328125" />
+      <point x="563.7435606060607" y="94.1328125" />
+      <point x="563.7435606060607" y="104.1328125" />
+      <point x="697.0" y="104.1328125" />
+      <point x="697.0" y="217.1328125" />
+      <point x="621.9" y="217.1328125" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="CREATE">
+      <point x="0.0" y="-15.0" />
+      <point x="621.9" y="217.1328125" />
+      <point x="697.0" y="217.1328125" />
+      <point x="697.0" y="104.1328125" />
+      <point x="563.7435606060607" y="104.1328125" />
+      <point x="563.7435606060607" y="94.1328125" />
+      <point x="409.24356060606067" y="94.1328125" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.domain" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_ONE">
+      <point x="-33.0" y="15.0" />
+      <point x="310.24356060606067" y="73.1328125" />
+      <point x="230.74356060606064" y="73.1328125" />
+      <point x="230.74356060606064" y="28.1328125" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.recorder" target="nz.ac.vuw.ecs.swen225.gp21.recorder" relationship="CREATE">
+      <point x="-34.80000000000001" y="15.0" />
+      <point x="564.7" y="195.1328125" />
+      <point x="482.5" y="195.1328125" />
+      <point x="482.5" y="142.6328125" />
+      <point x="-87.0" y="-7.5" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.persistency" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_MANY">
+      <point x="-49.5" y="-15.0" />
+      <point x="80.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.fuzz" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="CREATE">
+      <point x="35.25" y="-15.0" />
+      <point x="407.0363636363636" y="350.1328125" />
+      <point x="686.5833333333333" y="350.1328125" />
+      <point x="686.5833333333333" y="340.1328125" />
+      <point x="667.5666666666666" y="340.1328125" />
+      <point x="45.66666666666663" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.recorder" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="DEPENDENCY">
+      <point x="69.60000000000002" y="15.0" />
+      <point x="669.1" y="237.1328125" />
+      <point x="707.5" y="237.1328125" />
+      <point x="707.5" y="247.1328125" />
+      <point x="667.5666666666666" y="247.1328125" />
+      <point x="45.66666666666663" y="-15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="CREATE">
+      <point x="43.5" y="-15.0" />
+      <point x="419.0" y="104.1328125" />
+      <point x="563.7435606060607" y="104.1328125" />
+      <point x="563.7435606060607" y="94.1328125" />
+      <point x="409.24356060606067" y="94.1328125" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.persistency" relationship="CREATE">
+      <point x="0.0" y="-15.0" />
+      <point x="621.9" y="217.1328125" />
+      <point x="195.5" y="217.1328125" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.domain" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_MANY">
+      <point x="0.0" y="15.0" />
+      <point x="343.24356060606067" y="83.1328125" />
+      <point x="220.74356060606064" y="83.1328125" />
+      <point x="220.74356060606064" y="18.1328125" />
+      <point x="-82.5" y="-10.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="CREATE">
+      <point x="-45.66666666666666" y="15.0" />
+      <point x="576.2333333333333" y="319.1328125" />
+      <point x="533.4" y="319.1328125" />
+      <point x="533.4" y="291.6328125" />
+      <point x="-68.5" y="7.5" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.renderer" relationship="CREATE">
+      <point x="0.0" y="-15.0" />
+      <point x="621.9" y="217.1328125" />
+      <point x="419.0" y="217.1328125" />
+      <point x="43.5" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.recorder" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="TO_ONE">
+      <point x="0.0" y="15.0" />
+      <point x="599.5" y="227.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="-45.66666666666663" y="-15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.recorder" relationship="TO_ONE">
+      <point x="-45.66666666666663" y="-15.0" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="599.5" y="227.1328125" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.renderer" relationship="TO_MANY">
+      <point x="-43.5" y="15.0" />
+      <point x="332.0" y="195.1328125" />
+      <point x="258.5" y="195.1328125" />
+      <point x="258.5" y="150.1328125" />
+      <point x="-87.0" y="-0.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_MANY">
+      <point x="-45.66666666666663" y="-15.0" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="0.0" y="227.1328125" />
+      <point x="0.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.fuzz" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="CREATE">
+      <point x="35.25" y="-15.0" />
+      <point x="407.0363636363636" y="350.1328125" />
+      <point x="686.5833333333333" y="350.1328125" />
+      <point x="686.5833333333333" y="340.1328125" />
+      <point x="729.207196969697" y="340.1328125" />
+      <point x="729.207196969697" y="104.1328125" />
+      <point x="563.7435606060607" y="104.1328125" />
+      <point x="563.7435606060607" y="94.1328125" />
+      <point x="409.24356060606067" y="94.1328125" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.persistency" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="CREATE">
+      <point x="49.5" y="-15.0" />
+      <point x="179.0" y="104.1328125" />
+      <point x="563.7435606060607" y="104.1328125" />
+      <point x="563.7435606060607" y="94.1328125" />
+      <point x="409.24356060606067" y="94.1328125" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_ONE">
+      <point x="-45.66666666666663" y="-15.0" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="0.0" y="227.1328125" />
+      <point x="0.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.domain" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="TO_ONE">
+      <point x="33.0" y="15.0" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="0.0" y="114.1328125" />
+      <point x="0.0" y="227.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="-45.66666666666663" y="-15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.persistency" target="nz.ac.vuw.ecs.swen225.gp21.persistency" relationship="CREATE">
+      <point x="-66.0" y="15.0" />
+      <point x="63.5" y="185.1328125" />
+      <point x="10.5" y="185.1328125" />
+      <point x="10.5" y="150.1328125" />
+      <point x="-99.0" y="-0.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.renderer" relationship="TO_ONE">
+      <point x="-14.5" y="15.0" />
+      <point x="361.0" y="205.1328125" />
+      <point x="248.5" y="205.1328125" />
+      <point x="248.5" y="140.1328125" />
+      <point x="-87.0" y="-10.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="DEPENDENCY">
+      <point x="72.5" y="15.0" />
+      <point x="448.0" y="237.1328125" />
+      <point x="707.5" y="237.1328125" />
+      <point x="707.5" y="247.1328125" />
+      <point x="667.5666666666666" y="247.1328125" />
+      <point x="45.66666666666663" y="-15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_ONE">
+      <point x="-43.5" y="-15.0" />
+      <point x="332.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.renderer" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_MANY">
+      <point x="-43.5" y="-15.0" />
+      <point x="332.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.fuzz" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="TO_MANY">
+      <point x="-35.25" y="-15.0" />
+      <point x="336.5363636363636" y="350.1328125" />
+      <point x="0.0" y="350.1328125" />
+      <point x="0.0" y="114.1328125" />
+      <point x="128.7435606060606" y="114.1328125" />
+      <point x="128.7435606060606" y="94.1328125" />
+      <point x="376.24356060606067" y="94.1328125" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.app" relationship="TO_ONE">
+      <point x="0.0" y="15.0" />
+      <point x="621.9" y="329.1328125" />
+      <point x="523.4" y="329.1328125" />
+      <point x="523.4" y="276.6328125" />
+      <point x="-68.5" y="-7.5" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.recorder" target="nz.ac.vuw.ecs.swen225.gp21.recorder" relationship="TO_ONE">
+      <point x="-69.6" y="15.0" />
+      <point x="529.9" y="185.1328125" />
+      <point x="492.5" y="185.1328125" />
+      <point x="492.5" y="157.6328125" />
+      <point x="-87.0" y="7.5" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.domain" target="nz.ac.vuw.ecs.swen225.gp21.domain" relationship="CREATE">
+      <point x="-66.0" y="15.0" />
+      <point x="277.24356060606067" y="63.1328125" />
+      <point x="240.74356060606064" y="63.1328125" />
+      <point x="240.74356060606064" y="38.1328125" />
+      <point x="-82.5" y="10.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp21.app" target="nz.ac.vuw.ecs.swen225.gp21.persistency" relationship="TO_ONE">
+      <point x="-45.66666666666663" y="-15.0" />
+      <point x="576.2333333333333" y="247.1328125" />
+      <point x="157.29053030303035" y="247.1328125" />
+      <point x="157.29053030303035" y="227.1328125" />
+      <point x="129.5" y="227.1328125" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="374.5" y="201.0" />
+  <SelectedNodes>
+    <node>nz.ac.vuw.ecs.swen225.gp21.recorder</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

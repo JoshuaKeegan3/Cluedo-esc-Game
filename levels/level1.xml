@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<level>
+	<name>Level 1</name>
+	<title>Hello World!</title>
+	<height>13</height>
+	<width>11</width>
+	<timeLimit>60</timeLimit>
+	<chipsLeft>2</chipsLeft>
+	<information1>Music make you lose control. Music make you lose control</information1>
+	<background>
+		<!-- Row 1 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row "2" -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>100</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row "3" -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>99</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 4 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>44</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 5 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>97</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 6 -->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>3</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<!-- Row 7-->
+		<tile>1</tile>
+		<tile>2</tile>
+		<tile>0</tile>
+		<tile>33</tile>
+		<tile>0</tile>
+		<tile>0</tile> <!-- This is where chap will be -->
+		<tile>0</tile>
+		<tile>22</tile>
+		<tile>0</tile>
+		<tile>4</tile>
+		<tile>1</tile>
+		<!-- Row 8 -->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<!-- Row 9 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>22</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 10 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 11 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 12 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>98</tile>
+		<tile>2</tile>
+		<tile>98</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!-- Row 13 -->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+	</background>
+	<entities>
+		<chap>
+			<x>5</x>
+			<y>6</y>
+		</chap>
+
+	</entities>
+
+</level>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<level>
+	<name>Level 2</name>
+	<title>I like to move it move it</title>
+	<height>7</height>
+	<width>16</width>
+	<timeLimit>60</timeLimit>
+	<chipsLeft>4</chipsLeft>
+	<information1>Watch out! If those things catch you, you're dead!</information1>
+	<background>
+		<!--Row 1-->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!--Row 2-->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!--Row 3-->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>98</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!--Row 4-->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile> <!--Chap is here!-->
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>22</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>98</tile>
+		<tile>0</tile>
+		<tile>99</tile>
+		<tile>100</tile>
+		<tile>1</tile>
+		<!--Row 5-->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>2</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!--Row 6-->
+		<tile>1</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>0</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<!--Row 7-->
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+		<tile>1</tile>
+	</background>
+	<entities>
+		<chap>
+			<x>2</x>
+			<y>3</y>
+		</chap>
+		<bug1>
+			<x>4</x>
+			<y>1</y>
+			<route>S 2 E 2 N 2 W 2</route>
+		</bug1>
+		<bug2>
+			<x>6</x>
+			<y>5</y>
+			<route>W 2 N 2 E 2 S 2</route>
+		</bug2>
+		<bug3>
+			<x>12</x>
+			<y>2</y>
+			<route>S 2 N 2</route>
+		</bug3>
+	</entities>
+</level>
